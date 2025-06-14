@@ -3,7 +3,7 @@ const enterBtn = document.getElementById("enterBtn");
 const statusEl = document.getElementById("status");
 
 enterBtn.addEventListener("click", () => {
-	const h1 = document.createElement("h1");
-	h1.textContent = "Entered Metaverse";
-	statusEl.replaceWith(h1);
+	statusEl.innerHTML = `
+	<h1>Entered Metaverse</h1>
+	`;
 })
